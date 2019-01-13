@@ -34,9 +34,7 @@ p{
     font-size: 120%;
     position: relative;
     top: 50px;
-    right: 140px;
-    color: rgba(240, 248, 255, 0);
-    border-color: #000;
+    right: 140px; 
 }
 
 .icon-2{

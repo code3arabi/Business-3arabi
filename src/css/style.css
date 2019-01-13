@@ -1,0 +1,273 @@
+ *{
+     margin: 0;
+     padding: 0;
+                  
+}
+
+html{
+    font-size: 20px;
+}
+
+h2{
+    padding: 55px 0 25px 0;
+    font-size: 190%;
+}
+
+h2:after {
+    display: block;
+ width:100px;
+ height:3px;
+ border-radius:50%;
+ background-color: #298629;
+    content: " ";
+    padding: 0 20px;
+}
+
+
+
+p{
+    text-align: right;
+    padding-right: 5px;
+    width: 700px;
+}
+.icon{
+    font-size: 120%;
+    position: relative;
+    top: 50px;
+    right: 140px;
+    color: rgba(240, 248, 255, 0);
+    border-color: #000;
+}
+
+.icon-2{
+    font-size: 150%;
+    position: relative;
+    top:50px;
+    right: 30%;
+}
+
+/*رأس الصفحة*/
+
+header{
+    width: 100%;
+    height: 100px;
+    overflow-x: hidden;
+    
+}
+
+.mobile{
+    position: relative;
+    top: 45px;
+    right: 150px;
+    text-decoration: none;
+    color: #000;
+    font-size: 80%;
+}
+
+.logo-img{
+    position: absolute;
+    top: 1px;
+    left: 50px;
+    height: 100px;
+    
+}
+
+address{
+    position: relative;
+    top: 45px;
+    right: 30%;
+    display: inline-block;
+    font-size: 80%;
+}
+
+
+
+/*القائمة الرئيسيه*/
+
+.main-nav{
+    width: 100%;
+    height: 65px;
+    background-color: #298629;
+}
+
+ul{
+    margin-right: 30%; 
+    
+    
+}
+ul li{
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 10;
+    margin-top: 20px;
+     border-right: 1px solid rgba(69, 69, 69, 0.56);
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 120%;
+   
+    
+}
+
+ul li a:hover{
+    color: #000;
+}
+
+
+/*القسم الرئيسي*/
+
+
+.main-section{
+    height: 700px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.7)) , url(../img/b18-overview-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   background-attachment: fixed;
+    
+}
+
+
+.main-box{
+    width: 750px;
+    height: 300px;
+    color: #fff;
+    position: relative;
+    top:150px;
+    right: 10%;
+    text-align: center;
+/*    background-color: rgba(69, 132, 35, 0.52);*/
+/*    border-radius: 35px;*/
+}
+
+.main-box h2:after{
+    display: none
+}
+
+
+.main-btn{
+    width: 160px;
+    height: 50px;
+    margin-top: 55px;
+    background-color: #298629;
+    border: solid 2px;
+    border-color:#298629;
+    border-radius: 35px;
+    color: #fff;
+    font-size: 110%;
+    cursor: pointer;
+    margin-left: 25px;
+    transition: transform .5s;
+    
+}
+.main-2-btn{
+    width: 160px;
+    height: 50px;
+    margin-top: 55px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 2px;
+    border-color:#298629;
+    border-radius: 35px;
+    color: #fff;
+    font-size: 110%;
+    cursor: pointer;
+}
+
+.main-btn:hover{
+    transform: scale(1.2);
+   
+}
+
+.main-2-btn:hover{
+    background-color: #298629;
+  
+}
+
+
+/*عن الشركة*/
+
+
+
+.about-section{
+    height: 600px;
+}
+
+.about-section img{
+    float: left;
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 100px;
+    border-radius: 35px;
+    
+}
+
+.about {
+    float: right;
+    margin-right: 50px;
+    
+}
+
+
+/*اتصل بنا*/
+
+
+.contact-section{
+    height: 900px;
+    width: 100%;
+    background-color: #f2f2f2;
+    
+    
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text] ,[type=email], [type=tel],select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize:vertical;   
+}
+
+input[type=submit] {
+    
+  background-color: #298629;
+  color: white;
+  padding: 12px 45px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    margin-right: 40%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+/*FOOTER*/
+
+
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgba(41, 134, 41, 0.73);
+}
+
+.p-footer{
+    margin-right: 40%;
+    padding-top: 50px;
+    color: aliceblue;
+}
+
+
